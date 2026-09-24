@@ -50,7 +50,7 @@ if ($MyInvocation.InvocationName -ne '.') {
             $value = Get-Factorial -N $N
             Write-Output "Factorial($N) = $value"
         }
-        default {
+        'fibonacci' {
             $value = Get-Fibonacci -N $N
             Write-Output "Fibonacci($N) = $value"
         }
